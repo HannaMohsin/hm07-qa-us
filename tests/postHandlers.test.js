@@ -16,6 +16,7 @@ test('Should return 201 status code', async () => {
 			},
 			body: JSON.stringify(requestBody)
 		});
+		actualStatusCode = response.status;
 	} catch (error) {
 		console.error(error);
 	}
