@@ -20,7 +20,7 @@ test('Should return 201 status code', async () => {
     } catch (error) {
        console.error(error);
     }
-    expect(actualStatusCode).toBe(200);
+    expect(actualStatusCode).toBe(201);
 });
 
 test('Response should contain Picnic', async () => {
